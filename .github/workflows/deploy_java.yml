@@ -15,7 +15,7 @@ jobs:
           java-version: '11'
           
       - name: Compile Java Program
-        run: javac src/main.java
+        run: javac src/Main.java
              
       - name: Run Java program
         run: java -cp src Main
